@@ -1,0 +1,49 @@
+/* Background Color */
+body {background-color: #3E5879;}
+
+/* Navigation Bar Section */
+ul { list-style-type: non; 
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden; 
+	background-color: #213555; 
+	border-top-right-radius: 15px; 
+	border-bottom-right-radius: 15px; 
+	border-top-left-radius: 15px; 
+	border-bottom-left-radius: 15px; }
+
+li { font-family: Eras Demi ITC; 
+	font-size: 20PX;} 
+
+
+li { float: left; 
+	border-right: 2px solid #FFFFFF; 
+	border-left: 2px solid #FFFFFF; }
+
+li a { display: block; 
+	color: white; 
+	text-align: center; 
+	padding: 30px; 
+	text-decoration: none; }
+
+li a: HOVER: NOT(.ACTIVE) { BACKGROUND-COLOR: #D8C4B6; }
+
+li:hover { background-color: #3E5879; } /* Hover */
+
+nav ul { 
+	list-style: none; 
+	padding: 0; 
+	margin: 0; } /* Unwanted Number Hider */
+
+#Link1 { float: right; }
+
+li { border-top-right-radius: 15px; 
+	border-bottom-right-radius: 15px; 
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px; }
+
+/* Header Section */
+#header { text-align: center; 
+	font-size: 50px; 
+	font-family: Eras Demi ITC; 
+	color: white; }
